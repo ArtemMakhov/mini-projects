@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1{
+  color: #000;
+  font-size: 7rem;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0;
+  color: #556581;
+}
+
+ button {
+   background: transparent;
+   border: 2px solid transparent;
+   text-align: center;
+   font-size: 22px;
+   border-radius: 15px;
+   padding: 10px 25px;
+   cursor: pointer;
+   margin: 0 10px;
+   transition: all 0.05s ease-in-out;
+  }
+  button:hover {
+    transform: translateY(-2px);
+  }
+  button:active {
+    transform: translateY(2px);
+    box-shadow: none;
+  }
