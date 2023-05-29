@@ -1,9 +1,14 @@
-import './App.css';
+import './index.scss';
+
+import { Success } from './components/Success';
+import { Users } from './components/Users';
 
 function App() {
   return (
     <div className="App">
-     <h1>Quiz</h1>
+      <h1>Blabla</h1>
+      {/* <Users /> */}
+      {/* <Success /> */}
     </div>
   );
 }
